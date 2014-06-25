@@ -1,4 +1,2 @@
-KURAN.GITHUB.IO
+Kuran'ı Kerim Web Projesi
 ===============
-
-WEB
