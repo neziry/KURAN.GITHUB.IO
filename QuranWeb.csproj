@@ -42,7 +42,21 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="app.main\controllers\" />
+    <Folder Include="app.main\helpers\directives\" />
+    <Folder Include="app.main\helpers\factory\" />
+    <Folder Include="app.main\helpers\filters\" />
+    <Folder Include="app.main\models\" />
+    <Folder Include="app.main\views\shared\layouts\" />
+    <Folder Include="app.main\views\shared\partials\" />
+    <Folder Include="content\plugIn\" />
+    <Folder Include="images\" />
     <Folder Include="Properties\" />
+    <Folder Include="scripts\lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.main\app.js" />
+    <Content Include="app.main\route.js" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
