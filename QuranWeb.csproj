@@ -60,7 +60,7 @@
     <Content Include="content\plugin\AnimatedBooks\css\demo.css" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.svg" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\license.txt" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec03962be704c4e65b46.jpg" />
     <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
