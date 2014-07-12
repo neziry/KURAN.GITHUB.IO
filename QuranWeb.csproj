@@ -55,10 +55,7 @@
     <Content Include="app.main\app.js" />
     <Content Include="app.main\controllers\homeController.js" />
     <Content Include="app.main\route.js" />
-    <Content Include="app.main\views\shared\partials\_books.html" />
-    <Content Include="app.main\views\shared\partials\books.html" />
-    <Content Include="app.main\views\shared\partials\books-panel.html" />
-    <Content Include="app.main\views\shared\partials\_pBooks.html" />
+    <Content Include="app.main\views\shared\partials\pBooks.html" />
     <Content Include="content\plugin\AnimatedBooks\css\book.css" />
     <Content Include="content\plugin\AnimatedBooks\css\demo.css" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.svg" />
