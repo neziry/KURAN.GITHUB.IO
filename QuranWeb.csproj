@@ -47,7 +47,6 @@
     <Folder Include="app.main\helpers\filters\" />
     <Folder Include="app.main\models\" />
     <Folder Include="app.main\views\shared\layouts\" />
-    <Folder Include="app.main\views\shared\partials\" />
     <Folder Include="images\" />
     <Folder Include="Properties\" />
     <Folder Include="scripts\lib\" />
@@ -56,6 +55,7 @@
     <Content Include="app.main\app.js" />
     <Content Include="app.main\controllers\homeController.js" />
     <Content Include="app.main\route.js" />
+    <Content Include="app.main\views\shared\partials\_pBooks.html" />
     <Content Include="content\plugin\AnimatedBooks\css\book.css" />
     <Content Include="content\plugin\AnimatedBooks\css\demo.css" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.svg" />
