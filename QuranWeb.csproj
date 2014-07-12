@@ -42,7 +42,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="app.main\helpers\directives\" />
+    <Folder Include="app.main\controllers\" />
     <Folder Include="app.main\helpers\factory\" />
     <Folder Include="app.main\helpers\filters\" />
     <Folder Include="app.main\models\" />
@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.main\app.js" />
-    <Content Include="app.main\controllers\homeController.js" />
+    <Content Include="app.main\helpers\directives\mainDirectives.js" />
     <Content Include="app.main\route.js" />
     <Content Include="app.main\views\shared\partials\pBooks.html" />
     <Content Include="content\plugin\AnimatedBooks\css\book.css" />
@@ -61,6 +61,18 @@
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.svg" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\license.txt" />
     <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec03962be704c4e65b46.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0b962be704c4e65b47.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0c962be704c4e65b48.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0c962be704c4e65b4a.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0c962be704c4e65b4c.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0d962be704c4e65b4d.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0d962be704c4e65b4e.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0d962be704c4e65b4f.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b50.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b51.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b52.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b53.jpg" />
+    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b54.jpg" />
     <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
