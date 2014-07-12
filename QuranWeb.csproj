@@ -45,7 +45,6 @@
     <Folder Include="app.main\controllers\" />
     <Folder Include="app.main\helpers\factory\" />
     <Folder Include="app.main\helpers\filters\" />
-    <Folder Include="app.main\models\" />
     <Folder Include="app.main\views\shared\layouts\" />
     <Folder Include="images\" />
     <Folder Include="Properties\" />
@@ -55,6 +54,7 @@
     <Content Include="app.main\app.js" />
     <Content Include="app.main\helpers\directives\mainDirectives.js" />
     <Content Include="app.main\route.js" />
+    <Content Include="app.main\service\service.js" />
     <Content Include="app.main\views\shared\partials\pBooks.html" />
     <Content Include="content\plugin\AnimatedBooks\css\book.css" />
     <Content Include="content\plugin\AnimatedBooks\css\demo.css" />
