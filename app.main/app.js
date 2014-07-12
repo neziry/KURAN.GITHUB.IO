@@ -4,7 +4,7 @@
     app.directive('booksPanel', function () {
         return {
             restrict: 'E',
-            templateUrl: 'app.main/views/shared/partials/_pBooks.html',
+            templateUrl: '/app.main/views/shared/partials/_pBooks.html',
             controller: ['$http', function ($http) {
                 var books = this;
                 books.Translators = new Array();
