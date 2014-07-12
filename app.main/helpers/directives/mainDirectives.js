@@ -2,17 +2,11 @@
     return {
         restrict: 'E',
         templateUrl: '/app.main/views/shared/partials/pBooks.html',
-        controller: ['$http', function ($http) {
+        controller: ['$http', '_translators', function ($http, _translators) {
             var books = this;
-            books.Translators = new Array();
 
-            $http.get('http://quranservice.azurewebsites.net/api/Translators')
-                 .success(function (data, status, headers, config) {
-                     books.Translators = data;
-                 })
-                 .error(function (data, status, headers, config) {
-                     alert('Data yükleme hatası!');
-                 });
+            books.Translators = new Array();
+            books.Translators = _translators.query();
         }],
         controllerAs: 'Books'
     };
