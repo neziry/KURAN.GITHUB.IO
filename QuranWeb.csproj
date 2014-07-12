@@ -55,6 +55,7 @@
     <Content Include="app.main\app.js" />
     <Content Include="app.main\controllers\homeController.js" />
     <Content Include="app.main\route.js" />
+    <Content Include="app.main\views\shared\partials\books.html" />
     <Content Include="app.main\views\shared\partials\books-panel.html" />
     <Content Include="app.main\views\shared\partials\_pBooks.html" />
     <Content Include="content\plugin\AnimatedBooks\css\book.css" />
