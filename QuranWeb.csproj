@@ -48,7 +48,6 @@
     <Folder Include="app.main\views\shared\layouts\" />
     <Folder Include="images\" />
     <Folder Include="Properties\" />
-    <Folder Include="scripts\lib\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.main\app.js" />
@@ -74,6 +73,8 @@
     <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b53.jpg" />
     <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b54.jpg" />
     <Content Include="index.html" />
+    <Content Include="scripts\lib\angular-resource.min.js" />
+    <Content Include="scripts\lib\angular.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\.DS_Store" />
