@@ -46,7 +46,6 @@
     <Folder Include="app.main\helpers\factory\" />
     <Folder Include="app.main\helpers\filters\" />
     <Folder Include="app.main\views\shared\layouts\" />
-    <Folder Include="images\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -55,23 +54,44 @@
     <Content Include="app.main\route.js" />
     <Content Include="app.main\service\service.js" />
     <Content Include="app.main\views\shared\partials\pBooks.html" />
+    <Content Include="content\plugin\3DGridEffect\css\component.css" />
+    <Content Include="content\plugin\3DGridEffect\css\demo.css" />
+    <Content Include="content\plugin\3DGridEffect\css\normalize.css" />
+    <Content Include="content\plugin\3DGridEffect\fonts\blokk\BLOKKRegular.svg" />
+    <Content Include="content\plugin\3DGridEffect\fonts\codropsicons\codropsicons.svg" />
+    <Content Include="content\plugin\3DGridEffect\fonts\codropsicons\license.txt" />
+    <Content Include="images\chapters\1.jpg" />
+    <Content Include="images\chapters\2.jpg" />
+    <Content Include="images\chapters\3.jpg" />
+    <Content Include="images\chapters\4.jpg" />
+    <Content Include="images\chapters\5.jpg" />
+    <Content Include="images\chapters\6.jpg" />
+    <Content Include="images\chapters\7.jpg" />
+    <Content Include="images\chapters\8.jpg" />
+    <Content Include="images\chapters\9.jpg" />
+    <Content Include="images\other\preloader.gif" />
+    <Content Include="translate\index.html" />
+    <Content Include="content\plugin\3DGridEffect\js\classie.js" />
+    <Content Include="content\plugin\3DGridEffect\js\grid3d.js" />
+    <Content Include="content\plugin\3DGridEffect\js\helper.js" />
+    <Content Include="content\plugin\3DGridEffect\js\modernizr.custom.js" />
     <Content Include="content\plugin\AnimatedBooks\css\book.css" />
     <Content Include="content\plugin\AnimatedBooks\css\demo.css" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.svg" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\license.txt" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec03962be704c4e65b46.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0b962be704c4e65b47.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0c962be704c4e65b48.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0c962be704c4e65b4a.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0c962be704c4e65b4c.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0d962be704c4e65b4d.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0d962be704c4e65b4e.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0d962be704c4e65b4f.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b50.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b51.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b52.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b53.jpg" />
-    <Content Include="content\plugin\AnimatedBooks\img\cover\5342ec0e962be704c4e65b54.jpg" />
+    <Content Include="images\books-cover\5342ec03962be704c4e65b46.jpg" />
+    <Content Include="images\books-cover\5342ec0b962be704c4e65b47.jpg" />
+    <Content Include="images\books-cover\5342ec0c962be704c4e65b48.jpg" />
+    <Content Include="images\books-cover\5342ec0c962be704c4e65b4a.jpg" />
+    <Content Include="images\books-cover\5342ec0c962be704c4e65b4c.jpg" />
+    <Content Include="images\books-cover\5342ec0d962be704c4e65b4d.jpg" />
+    <Content Include="images\books-cover\5342ec0d962be704c4e65b4e.jpg" />
+    <Content Include="images\books-cover\5342ec0d962be704c4e65b4f.jpg" />
+    <Content Include="images\books-cover\5342ec0e962be704c4e65b50.jpg" />
+    <Content Include="images\books-cover\5342ec0e962be704c4e65b51.jpg" />
+    <Content Include="images\books-cover\5342ec0e962be704c4e65b52.jpg" />
+    <Content Include="images\books-cover\5342ec0e962be704c4e65b53.jpg" />
+    <Content Include="images\books-cover\5342ec0e962be704c4e65b54.jpg" />
     <Content Include="index.html" />
     <Content Include="scripts\lib\angular-resource.min.js" />
     <Content Include="scripts\lib\angular.min.js" />
@@ -81,6 +101,14 @@
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.eot" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.ttf" />
     <Content Include="content\plugin\AnimatedBooks\fonts\codropsicons\codropsicons.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\plugin\3DGridEffect\fonts\blokk\BLOKKRegular.eot" />
+    <Content Include="content\plugin\3DGridEffect\fonts\blokk\BLOKKRegular.ttf" />
+    <Content Include="content\plugin\3DGridEffect\fonts\blokk\BLOKKRegular.woff" />
+    <Content Include="content\plugin\3DGridEffect\fonts\codropsicons\codropsicons.eot" />
+    <Content Include="content\plugin\3DGridEffect\fonts\codropsicons\codropsicons.ttf" />
+    <Content Include="content\plugin\3DGridEffect\fonts\codropsicons\codropsicons.woff" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
