@@ -10,4 +10,12 @@
         );
     });
 
+    // _chapters Resource
+    service.factory('_chapters', function ($resource) {
+        return $resource(
+            baseUrl + '/api/Chapters/:Id',
+            { Id: '@Id' }
+        );
+    });
+
 })();
