@@ -14,8 +14,8 @@
     <script src="/content/plugin/GridLoadingEffects/js/modernizr.custom.js"></script>
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-   
-     <!--angularjs libraries-->
+
+    <!--angularjs libraries-->
     <script src="/scripts/lib/angular.min.js"></script>
     <script src="/scripts/lib/angular-resource.min.js"></script>
     <!--angularjs libraries-->
@@ -28,8 +28,10 @@
     <div class="container">
         <!-- Top Navigation -->
         <header>
-            <h1>{{model.Translator.Name}} 
-            <span ng-hide="model.Translator.Id=='5342ec03962be704c4e65b46' || model.Translator.Id=='5342ec0b962be704c4e65b47'">çevirisi</span></h1>
+            <h1>
+                {{model.Translator.Name}}
+                <span ng-hide="model.Translator.Id=='5342ec03962be704c4e65b46' || model.Translator.Id=='5342ec0b962be704c4e65b47'">çevirisi</span>
+            </h1>
         </header>
 
         <div ng-hide="model.Chapters.length" class="center padding50">
@@ -41,13 +43,11 @@
             <li ng-repeat="item in model.Chapters">
                 <a href="/chapter/#/?translator={{model.Translator.Id}}&chapter={{item.Id}}">
                     <img ng-src="/images/chapters/5.jpg" alt="{{item.Name}} Suresi">
-                    <span>{{item.Name}}</span>
+                    <div class="center"><b>{{item.Number}}</b>: {{item.Name}} (<b>{{item.TurkishName}}</b>)</div>
                 </a>
             </li>
         </ul>
 
-        <!--effect-4 css and effect-1,2,3,5,6,7..-->
-        <ul class="grid effect-4" id="grid"></ul>
     </div>
 
 
