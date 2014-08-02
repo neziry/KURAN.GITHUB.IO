@@ -7,8 +7,8 @@ app.controller("AppCtrl", function ($scope, $location, _translators, _chapters) 
     var chaps = _chapters.query();
 
     $scope.model = {
-        translator: trans,
-        chapters: chaps
+        Translator: trans,
+        Chapters: chaps
     }
 });
 
