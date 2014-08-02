@@ -42,14 +42,15 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="app.main\controllers\" />
     <Folder Include="app.main\helpers\factory\" />
     <Folder Include="app.main\helpers\filters\" />
     <Folder Include="app.main\views\shared\layouts\" />
+    <Folder Include="chapter\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.main\app.js" />
+    <Content Include="app.main\controllers\translateController.js" />
     <Content Include="app.main\helpers\directives\mainDirectives.js" />
     <Content Include="app.main\route.js" />
     <Content Include="app.main\service\service.js" />
