@@ -5,7 +5,7 @@
 <ul class="align">
 
     <li ng-repeat="item in Books.Translators">
-        <figure class='book' data-id="{{item.Id}}" onclick="window.location = 'translate/' + this.getAttribute('data-id')">
+        <figure class='book' data-id="{{item.Id}}" onclick="window.location = 'translate/#/?translator=' + this.getAttribute('data-id')">
             <!-- Front -->
             <ul class='hardcover_front'>
                 <li>
@@ -17,7 +17,7 @@
             <ul class='page'>
                 <li></li>
                 <li>
-                    <a class="btn" href="/translate/{{item.Id}}">OKU!</a>
+                    <a class="btn" href="/translate/#/?translator={{item.Id}}">OKU!</a>
                 </li>
                 <li></li>
                 <li></li>
