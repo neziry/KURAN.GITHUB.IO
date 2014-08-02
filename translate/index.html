@@ -13,7 +13,9 @@
     <link rel="stylesheet" type="text/css" href="/content/plugin/GridLoadingEffects/css/component.css" />
     <script src="/content/plugin/GridLoadingEffects/js/modernizr.custom.js"></script>
 
-    <!--angularjs libraries-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   
+     <!--angularjs libraries-->
     <script src="/scripts/lib/angular.min.js"></script>
     <script src="/scripts/lib/angular-resource.min.js"></script>
     <!--angularjs libraries-->
@@ -29,6 +31,10 @@
             <h1>{{model.Translator.Name}} 
             <span ng-hide="model.Translator.Id=='5342ec03962be704c4e65b46' || model.Translator.Id=='5342ec0b962be704c4e65b47'">çevirisi</span></h1>
         </header>
+
+        <div ng-hide="model.Chapters.length" class="center padding50">
+            <i class="fa fa-refresh fa-spin fa-4x"></i>
+        </div>
 
         <!--effect-4 css and effect-1,2,3,5,6,7..-->
         <ul class="grid effect-4" id="grid">
